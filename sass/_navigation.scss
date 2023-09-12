@@ -1,0 +1,93 @@
+
+
+
+#navigation {
+
+    /*BUTTON MENU MOBILE*/
+    .menu-btn {
+        -webkit-font-smoothing: antialiased;
+        background-color: #13a0c9;
+        border: none;
+        color: white;
+        display: inline-block;
+        font-size: 1em;
+        font-weight: bold;
+        line-height: 1;
+        padding: 0.75em 1em;
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
+    
+        display: none;
+        position: relative;
+        @media (max-width: 768px) {
+        display: inline-block;
+        }
+    }
+
+
+
+	nav {
+
+        justify-content: end !important;
+
+        /*Boton Hamburguesa*/
+        .navbar-toggler {
+            color: $rosa !important;
+            border-color: $rosa !important;
+
+            margin-bottom: 10px;
+            span{
+                filter: invert(41%) sepia(99%) saturate(2138%) hue-rotate(311deg) brightness(100%) contrast(103%);
+            }
+        }
+
+        /*Elementos Menu*/
+        .navbar-nav{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: end;
+
+			margin: 0;  
+            width: 100%;
+
+            @media (min-width: 992px) {
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }   
+
+
+            button{
+                background-color: $rosa;
+                color: #fff;
+                border-radius: 30px;
+                border: 0px;
+                padding: 10px 20px;
+                margin: 4px 0;
+                @media (min-width: 768px) {
+                    margin: 0;
+                }  
+                a{
+                    color: #fff !important;
+                }
+            }  
+            
+            a {
+                color: #fff;
+                margin: 0;
+                padding: 4px 10px;
+                text-decoration: none;
+                &.active{
+                    color: $rosa;
+                }
+                @media (min-width: 992px) {
+                    color: $morado;
+                    padding: 0;
+                }  
+            }
+
+        }
+	}
+}

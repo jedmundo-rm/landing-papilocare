@@ -1,0 +1,390 @@
+/* Pages */
+/*!
+Theme Name: Ki-Cab
+Theme URI: http://underscores.me/
+Author: Augusto Flores
+Author URI: https://centralmedia.mx/
+Description: Tema 2022
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: kicab
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Ki-Cab is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+.morado {
+  color: #722AEB;
+}
+
+.morado-fuerte {
+  color: #6512CF;
+}
+
+.morado-claro {
+  color: #B299F5;
+}
+
+.rosa {
+  color: #FF448E;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #898989;
+}
+
+img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 992px) {
+  img {
+    text-align: left;
+  }
+}
+
+section {
+  padding: 3rem 0;
+}
+
+header {
+  overflow: hidden;
+  color: white;
+  background-image: url("../images/home/Producto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .banner {
+  padding: 5rem 0;
+}
+header .banner h1 {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  padding: 6rem 0;
+}
+@media (min-width: 768px) {
+  header .banner h1 {
+    font-size: 60px;
+  }
+}
+header .banner img {
+  width: 100%;
+}
+header img {
+  display: block;
+  width: 100%;
+  max-width: 670px;
+  margin: 0 auto;
+}
+@media (min-width: 992px) {
+  header img {
+    text-align: left;
+  }
+}
+
+.logo {
+  padding: 1rem;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .logo {
+    padding: 3rem;
+    text-align: left;
+  }
+}
+.logo #logo {
+  max-width: 220px;
+  width: 100%;
+  display: initial;
+}
+
+main {
+  background-color: #722AEB;
+  padding: 4rem 0;
+}
+main p {
+  color: #fff;
+}
+main h1 {
+  font-weight: 500;
+  font-size: 34pt;
+  color: #fff;
+}
+main h1 span {
+  font-size: 44pt;
+  color: #FF448E;
+}
+
+.over-content {
+  margin-top: 100px;
+}
+.over-content .over-img {
+  max-width: 400px;
+  margin-top: -180px;
+}
+@media (min-width: 992px) {
+  .over-content .over-img {
+    padding-bottom: 0px;
+  }
+}
+.over-content .aplicaciones h3 {
+  text-align: center;
+  padding: 1rem 0;
+  color: #fff;
+  font-size: 16pt;
+}
+@media (min-width: 992px) {
+  .over-content .aplicaciones .img-left h3 {
+    text-align: left;
+  }
+}
+@media (min-width: 992px) {
+  .over-content .aplicaciones .img-right h3 {
+    text-align: right;
+  }
+}
+
+.bold {
+  font-weight: 600;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 34pt;
+}
+h1 span {
+  font-size: 44pt;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 18px;
+}
+@media (min-width: 1200px) {
+  h2 {
+    font-size: 22px;
+  }
+}
+
+p {
+  font-size: 16px;
+}
+p span {
+  color: #722AEB;
+  font-weight: bold;
+}
+@media (min-width: 992px) {
+  p {
+    font-size: 18px;
+  }
+}
+
+.referencias {
+  font-size: 9pt;
+}
+
+.top-bar {
+  background-color: #722AEB;
+  display: flex;
+  justify-content: end;
+  padding: 20px 40px;
+}
+.top-bar p {
+  margin: 0;
+}
+.top-bar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu {
+  background-color: #6512CF;
+}
+@media (min-width: 992px) {
+  .menu {
+    background-color: transparent;
+  }
+}
+
+button {
+  background-color: #FF448E;
+  color: #fff;
+  border-radius: 30px;
+  border: 0px;
+  padding: 4px 10px;
+  margin: 4px 10px;
+}
+@media (min-width: 992px) {
+  button {
+    margin: 0;
+    padding: 10px 20px;
+  }
+}
+button a {
+  color: #fff !important;
+}
+
+.interiores header {
+  background-image: url("../images/que_es/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.interiores header h1 {
+  font-weight: 500;
+  font-size: 44pt;
+  padding: 3% 0;
+}
+.interiores header.comprar h1 {
+  font-size: 30px;
+}
+.interiores header.comprar h1 span {
+  font-size: 30px;
+  color: #B299F5;
+}
+.interiores .frecuencia .row > div {
+  padding-right: 0px;
+}
+@media (min-width: 992px) {
+  .interiores .frecuencia .row > div {
+    padding-right: 85px;
+  }
+}
+@media (min-width: 1420px) {
+  .interiores .frecuencia .row > div {
+    padding-right: 0px;
+  }
+}
+.interiores .frecuencia:before {
+  background: url(" ");
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+@media (min-width: 992px) {
+  .interiores .frecuencia:before {
+    background: url("../images/que_es/mexico.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+}
+
+.mitos span {
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #fff;
+  padding: 70px;
+}
+footer img {
+  max-width: 120px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+@media (min-width: 992px) {
+  footer img {
+    padding-bottom: 0px;
+  }
+}
+footer p {
+  font-size: 9pt;
+  margin: 0;
+}
+
+#navigation {
+  /*BUTTON MENU MOBILE*/
+}
+#navigation .menu-btn {
+  -webkit-font-smoothing: antialiased;
+  background-color: #13a0c9;
+  border: none;
+  color: white;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1;
+  padding: 0.75em 1em;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  display: none;
+  position: relative;
+}
+@media (max-width: 768px) {
+  #navigation .menu-btn {
+    display: inline-block;
+  }
+}
+#navigation nav {
+  justify-content: end !important;
+  /*Boton Hamburguesa*/
+  /*Elementos Menu*/
+}
+#navigation nav .navbar-toggler {
+  color: #FF448E !important;
+  border-color: #FF448E !important;
+  margin-bottom: 10px;
+}
+#navigation nav .navbar-toggler span {
+  filter: invert(41%) sepia(99%) saturate(2138%) hue-rotate(311deg) brightness(100%) contrast(103%);
+}
+#navigation nav .navbar-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  margin: 0;
+  width: 100%;
+}
+@media (min-width: 992px) {
+  #navigation nav .navbar-nav {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+#navigation nav .navbar-nav button {
+  background-color: #FF448E;
+  color: #fff;
+  border-radius: 30px;
+  border: 0px;
+  padding: 10px 20px;
+  margin: 4px 0;
+}
+@media (min-width: 768px) {
+  #navigation nav .navbar-nav button {
+    margin: 0;
+  }
+}
+#navigation nav .navbar-nav button a {
+  color: #fff !important;
+}
+#navigation nav .navbar-nav a {
+  color: #fff;
+  margin: 0;
+  padding: 4px 10px;
+  text-decoration: none;
+}
+#navigation nav .navbar-nav a.active {
+  color: #FF448E;
+}
+@media (min-width: 992px) {
+  #navigation nav .navbar-nav a {
+    color: #722AEB;
+    padding: 0;
+  }
+}/*# sourceMappingURL=style.css.map */

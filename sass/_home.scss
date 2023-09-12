@@ -1,0 +1,177 @@
+
+/*!
+Theme Name: Ki-Cab
+Theme URI: http://underscores.me/
+Author: Augusto Flores
+Author URI: https://centralmedia.mx/
+Description: Tema 2022
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: kicab
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Ki-Cab is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+
+$morado: #722AEB;
+$morado-fuerte: #6512CF;
+$morado-claro: #B299F5;
+$rosa: #FF448E;
+
+.morado{
+    color: $morado;
+}
+.morado-fuerte{
+    color: $morado-fuerte;
+}
+.morado-claro{
+    color: $morado-claro;
+}
+.rosa{
+    color: $rosa;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #898989;
+}
+
+img{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    @media (min-width: 992px) {
+        text-align: left;
+    }
+  }
+
+  section{
+    padding: 3rem 0;
+  }
+
+
+header {
+    overflow: hidden;
+    color: white;
+
+    background-image: url("../images/home/Producto.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .banner{
+        padding: 5rem 0;
+        h1 {
+            font-size: 50px;
+            color: #fff;
+            text-align: center;
+            padding: 6rem 0;
+    
+            @media (min-width: 768px) {
+                font-size: 60px;
+            }
+    
+        }
+
+        img{
+            width: 100%;
+        }
+    }
+
+
+    img{
+        display: block;
+        width: 100%;
+        max-width: 670px;
+        margin: 0 auto;
+        @media (min-width: 992px) {
+            text-align: left;
+        }
+      }
+
+}
+
+.logo{
+    padding: 1rem;
+    text-align: center;
+    @media (min-width: 992px) {
+        padding: 3rem;
+        text-align: left;
+    }    
+    #logo {
+        max-width: 220px;
+        width: 100%;
+        display: initial;
+
+    }    
+}
+
+
+main {
+    background-color: $morado;
+    padding: 4rem 0;
+    p{
+        color: #fff;
+    }
+    h1{
+        font-weight: 500;
+        font-size: 34pt;
+        color: #fff;
+        span{
+            font-size: 44pt;
+            color: $rosa;
+        }
+    }
+}
+
+.over-content{
+    margin-top: 100px;
+
+    .over-img{
+        max-width: 400px;
+        margin-top: -180px;
+        @media (min-width: 992px) {
+            padding-bottom: 0px;
+        }
+    }    
+    .aplicaciones{
+
+        h3{
+            text-align: center;
+            padding: 1rem 0;
+            color: #fff;
+            font-size: 16pt;
+        }
+
+        .img-left{
+
+            @media (min-width: 992px) {
+                h3{
+                    text-align: left;
+                }
+            }
+        }
+
+        .img-right{
+            @media (min-width: 992px) {
+                h3{
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
+
+
+
+
