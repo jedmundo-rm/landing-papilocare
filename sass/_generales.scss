@@ -88,17 +88,52 @@ button{
             font-size: 44pt;
             padding: 3% 0;
         }
+    }
 
-        &.comprar{
+    &.comprar{
+
+        header{
+            background-image: url("../images/comprar/background.png");
+            background-repeat: no-repeat;
+            background-size: cover;    
+            .banner{
+                padding: 3rem 0 0 0;
+            }
+
             h1{
                 font-size: 30px;
                 span{
                     font-size: 30px;
                     color: $morado-claro;
                 }
+            }            
+        }
+
+        h1{
+            font-size: 44px;
+            @media(min-width: 992px){
+                font-size: 52px;
             }
         }
-        
+    }
+
+    &.contacto{
+
+        header{
+            background-image: url("../images/contacto/background.png");
+            background-repeat: no-repeat;
+            background-size: cover;    
+            .banner{
+                padding: 3rem 0 0 0;
+            }
+
+            h1{
+                font-size: 44px;
+                @media(min-width:992px){
+                    font-size: 52px;
+                }
+            }            
+        }
     }
 
     .frecuencia{
