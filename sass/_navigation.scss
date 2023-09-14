@@ -49,13 +49,15 @@
             justify-content: center;
             align-items: end;
 
-			margin: 0;  
+			margin: 4px;  
             width: 100%;
 
             @media (min-width: 992px) {
                 flex-direction: row;
                 justify-content: space-between;
                 align-items: center;
+
+                margin: 0;  
             }   
 
 

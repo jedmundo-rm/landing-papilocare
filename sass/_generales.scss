@@ -3,6 +3,7 @@
     font-weight: 600;
 }
 
+
 h1{
     font-weight: 500;
     font-size: 34pt;
@@ -90,6 +91,41 @@ button{
         }
     }
 
+    &.que_es{
+        h1{
+            font-size: 38px;
+            @media(min-width: 992px){
+                font-size: 44px;
+            }
+        }
+        .text-left-center{
+            text-align: center;
+            @media (min-width:992px) {
+                text-align: left;
+            }
+        }
+        .mexico{
+            margin-right: 10px;
+        }
+        .vacuna{
+            margin-left: -10%;
+            @media (min-width:992px) {
+                margin-left: -20%;
+            }
+        }
+    }
+
+    &.no_estas_sola{
+        header{
+            background-image: url("../images/no_estas_sola/bacground.png");
+            background-repeat: no-repeat;
+            background-size: cover;    
+            .banner{
+                padding: 3rem 0 0 0;
+            }
+        }
+    }
+
     &.comprar{
 
         header{
@@ -97,7 +133,7 @@ button{
             background-repeat: no-repeat;
             background-size: cover;    
             .banner{
-                padding: 3rem 0 0 0;
+                padding: 5rem 0 0 0;
             }
 
             h1{
@@ -129,8 +165,10 @@ button{
 
             h1{
                 font-size: 44px;
+                text-align: left;
                 @media(min-width:992px){
                     font-size: 52px;
+                    text-align: center;
                 }
             }            
         }

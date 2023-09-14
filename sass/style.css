@@ -246,13 +246,48 @@ button a {
   font-size: 44pt;
   padding: 3% 0;
 }
+.interiores.que_es h1 {
+  font-size: 38px;
+}
+@media (min-width: 992px) {
+  .interiores.que_es h1 {
+    font-size: 44px;
+  }
+}
+.interiores.que_es .text-left-center {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .interiores.que_es .text-left-center {
+    text-align: left;
+  }
+}
+.interiores.que_es .mexico {
+  margin-right: 10px;
+}
+.interiores.que_es .vacuna {
+  margin-left: -10%;
+}
+@media (min-width: 992px) {
+  .interiores.que_es .vacuna {
+    margin-left: -20%;
+  }
+}
+.interiores.no_estas_sola header {
+  background-image: url("../images/no_estas_sola/bacground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.interiores.no_estas_sola header .banner {
+  padding: 3rem 0 0 0;
+}
 .interiores.comprar header {
   background-image: url("../images/comprar/background.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .interiores.comprar header .banner {
-  padding: 3rem 0 0 0;
+  padding: 5rem 0 0 0;
 }
 .interiores.comprar header h1 {
   font-size: 30px;
@@ -279,10 +314,12 @@ button a {
 }
 .interiores.contacto header h1 {
   font-size: 44px;
+  text-align: left;
 }
 @media (min-width: 992px) {
   .interiores.contacto header h1 {
     font-size: 52px;
+    text-align: center;
   }
 }
 .interiores .frecuencia .row > div {
@@ -379,7 +416,7 @@ footer p {
   flex-direction: column;
   justify-content: center;
   align-items: end;
-  margin: 0;
+  margin: 4px;
   width: 100%;
 }
 @media (min-width: 992px) {
@@ -387,6 +424,7 @@ footer p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
   }
 }
 #navigation nav .navbar-nav button {
