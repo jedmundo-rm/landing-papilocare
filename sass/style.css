@@ -322,6 +322,19 @@ button a {
     text-align: center;
   }
 }
+.interiores.contacto form ::-moz-placeholder {
+  color: #722AEB;
+  font-weight: 600;
+}
+.interiores.contacto form ::placeholder {
+  color: #722AEB;
+  font-weight: 600;
+}
+.interiores.contacto form button {
+  background-color: #722AEB;
+  padding: 10px 60px;
+  font-size: 10pt;
+}
 .interiores .frecuencia .row > div {
   padding-right: 0px;
 }
